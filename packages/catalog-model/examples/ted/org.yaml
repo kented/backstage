@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ted-corp
+  description: Ideas worth spreading
+spec:
+  type: organization
+  profile:
+    displayName: TED Conferences
+    email: ken@ted.com
+    # picture: https://example.com/logo.jpeg
+  # children: [digital-products]

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: ted-corp
+  description: TED Conferences
+spec:
+  targets:
+    - ./ted/org.yaml
